@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- 3 - Internal CSS -->
+    <style>
+      p {
+        color: gold;
+        font-size: 40px;
+      }
+    </style>
+    <!-- 4 - External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 1 - Inline CSS -->
+    <h1 style="color: blue">Mudar Cor com o Inline</h1>
+    <h1 style="color: blue">Outro título</h1>
+    <!-- 2 - multiplas regras -->
+    <h1 style="color: purple; font-size: 50px; border-bottom: 1px solid red">
+      Mudar cor e tamanho da fonte
+    </h1>
+
+    <!-- 3 - Internal CSS -->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>mais um</p>
+    <p>mais outro</p>
+
+    <!-- 4 - External CSS -->
+    <h3>Meu título verde</h3>
+    <!-- 5 - CLASSES -->
+    <p class="paragrafo">paragrafo 1</p>
+    <p class="paragrafo">paragrafo 2</p>
+    <p class="paragrafo">paragrafo 3</p>
+
+    <!-- 5 - id -->
+    <h1 id="exclusive-title">Este é um título com id</h1>
+
+    <!-- 6 - ordem do css -->
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!-- 7 - nomes de cores -->
+    <p class="color-name">Texto para nomes de cores</p>
+    <!-- 8 - background image -->
+    <h1 class="bg-image">Este titulo em uma imagem</h1>
+    <!-- 9 - centralizando a image em background -->
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <!-- 10 - largura e altura -->
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!-- 11 - padding -->
+    <div class="without-padding">Este não tem padding</div>
+    <div class="padding">Este tem padding</div>
+
+    <!-- 12 - padding individual -->
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!-- 13 - shorthand padding -->
+    <p class="shorthand-padding">Algum texto</p>
+    <p class="shorthand-padding-2">Algum texto 2</p>
+
+    <!-- 14 - padding e width -->
+    <div class="without-border-box">
+      <p>Algum contéudo</p>
+    </div>
+    <div class="border-box">
+      <p>Algum contéudo 2</p>
+    </div>
+  </body>
+</html>
