@@ -1,0 +1,14 @@
+#box-model {
+  margin: 10px #222;
+  border: 50x 40px solid #659;
+  border-radius: 15 px black;
+  padding: 40px 20px #250;
+  width: 200px;
+  height: 400px;
+  outline: border greenyellow;
+}
+
+.text-h2 {
+  background-color: aquamarine;
+  padding: 50px 50px;
+}
